@@ -1,0 +1,2 @@
+Automatically insert references \cite{Jin2003} and make life easier
+for authors \cite{Brylinski2006} all over \cite{Jin2003}.

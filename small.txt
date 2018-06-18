@@ -1,0 +1,21 @@
+A number of disciplines use distance geometry methods.  In statistics
+and psychology, multidimensional scaling has been studied as a way to
+visualize data using only similarity or dissimilarity
+information~\cite{Borg2005}.  There has been renewed interest in
+distance geometry through semidefinite programming due to its
+applications to wireless sensor location~\cite{Carter2005} and to
+graph embedding~\cite{Shaw2009}.
+
+In structural biology, nuclear magnetic resonance spectroscopy (NMR)
+can generate distance-based information about molecules in solution,
+particularly proteins.  Converting this distance information into atom
+coordinates allows the structure of the protein to be
+ascertained~\cite{Wuthrich1990}\cite{Crippen1988}.  Recently SDP methods
+have been applied to resolve coordinates based on incomplete distance
+information \cite{Biswas2008}.  Using all atoms in a protein leads to
+very large SDPs, thus the approach in \cite{Biswas2008} uses a series
+of smaller problems on limited subsets of all atoms and then employs a
+stitching procedure to combine the results.  We are interested in
+preserving some of the global energy properties of proteins so we
+adopt a reduced model of the protein to keep the SDP tractable.
+
